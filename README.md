@@ -2,7 +2,6 @@
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![License](https://img.shields.io/github/license/Staycool18/Student-Performance-Prediction-ML-Streamlit)
 ![ML Project](https://img.shields.io/badge/Machine%20Learning-Project-brightgreen)
 
 A **Machine Learning web app** built using **Streamlit** that predicts student academic performance based on several key factors. This app helps educators, institutions, and stakeholders understand the influence of socioeconomic and academic variables on student success.
@@ -28,13 +27,14 @@ A **Machine Learning web app** built using **Streamlit** that predicts student a
 
 This ML-based project predicts a student's **final performance** using multiple features such as:
 
-- Gender  
-- Parental education level  
-- Test preparation course  
-- Lunch type  
-- Previous scores (math, reading, writing)
+- Socioeconomic Score  
+- Study Hours
+- Sleep Hours
+- Attendance (%) 
+- Performance (Medium)
+- Performance (High)
 
-The model predicts the student's final score/classification, helping in early intervention or support strategies.
+The model predicts the student's final grade/classification, helping in early intervention or support strategies.
 
 ---
 
@@ -54,10 +54,10 @@ The model predicts the student's final score/classification, helping in early in
 - Source: [UCI Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/Student+Performance) or [Kaggle Educational Datasets]
 - Format: CSV
 - Key columns:
-  - `gender`, `race/ethnicity`, `parental level of education`
-  - `lunch`, `test preparation course`
-  - `math score`, `reading score`, `writing score`
-- Target: Predicted performance level or average score
+  - `Socioeconomic Score `, `Study Hours`
+  - `Sleep Hours`, `Attendance (%) `
+  - `Performance (Medium)` `Performance (High)`
+- Target: Predicted performance level or grade
 
 ---
 
@@ -81,3 +81,29 @@ The model predicts the student's final score/classification, helping in early in
 ```bash
 git clone https://github.com/Staycool18/Student-Performance-Prediction-ML-Streamlit.git
 cd Student-Performance-Prediction-ML-Streamlit
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using **Streamlit Cloud**.
+
+🔗 **Live App**: [Click here to try it out]([https://<your-deployment-link>.streamlit.app](https://machine-learning-4ymy47al3z5uubpvlixndz.streamlit.app/))
+
+---
+
+## 📸 Screenshots
+
+Here are a few screenshots of the Student Performance Prediction App in action:
+
+### 📊 Output
+![Output Screenshot](assets/<img width="959" alt="image" src="https://github.com/user-attachments/assets/257f5d5f-ad2f-415e-9e49-63fbf06c5efa" />
+)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+
