@@ -51,7 +51,7 @@ The model predicts the student's final grade/classification, helping in early in
 
 ## 📊 Dataset Info
 
-- Source: [UCI Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/Student+Performance) or [Kaggle Educational Datasets]
+- Source: Kaggle Educational Datasets
 - Format: CSV
 - Key columns:
   - `Socioeconomic Score `, `Study Hours`
