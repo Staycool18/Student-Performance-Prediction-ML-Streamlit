@@ -74,16 +74,6 @@ The model predicts the student's final grade/classification, helping in early in
 
 ---
 
-## 🚀 How to Run Locally
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/Staycool18/Student-Performance-Prediction-ML-Streamlit.git
-cd Student-Performance-Prediction-ML-Streamlit
-
----
-
 ## 🌐 Deployment
 
 The project is deployed using **Streamlit Cloud**.
@@ -106,4 +96,12 @@ Here are a few screenshots of the Student Performance Prediction App in action:
 
 This project is licensed under the **MIT License**.
 
+## 🚀 How to Run Locally
 
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Staycool18/Student-Performance-Prediction-ML-Streamlit.git
+cd Student-Performance-Prediction-ML-Streamlit
+
+---
