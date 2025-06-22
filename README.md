@@ -87,8 +87,7 @@ The project is deployed using **Streamlit Cloud**.
 Here are a few screenshots of the Student Performance Prediction App in action:
 
 ### 📊 Output
-![Output Screenshot](assets/<img width="959" alt="image" src="https://github.com/user-attachments/assets/257f5d5f-ad2f-415e-9e49-63fbf06c5efa" />
-)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/257f5d5f-ad2f-415e-9e49-63fbf06c5efa" />
 
 ---
 
